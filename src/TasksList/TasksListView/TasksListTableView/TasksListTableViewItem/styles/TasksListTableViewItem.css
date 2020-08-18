@@ -1,0 +1,6 @@
+.TasksListTableViewItem {
+    padding: 20px;
+    display: flex;
+    background: #A6A8BF;
+    border-radius: 8px;
+}

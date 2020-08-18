@@ -1,0 +1,19 @@
+.AppDefaultLayoutNavMenuItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid  #3C4576;
+    padding: 4px 8px 8px 8px;
+    border-radius: 8px;
+}
+
+.AppDefaultLayoutNavMenuItem:hover {
+   border-color: #6D53D3;
+}
+
+.AppDefaultLayoutNavMenuItem:active {
+    background-color: #394065;
+    color: #FFFFFF;
+}
+

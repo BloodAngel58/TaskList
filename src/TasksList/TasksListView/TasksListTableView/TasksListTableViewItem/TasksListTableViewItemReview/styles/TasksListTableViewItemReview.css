@@ -1,0 +1,56 @@
+.TasksListTableViewItemReview {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.TasksListTableViewItemReview-textSlot {
+    flex-grow: 1;
+}
+
+.TasksListTableViewItemReview-textSlot_label {
+    font-size: 18px;
+}
+
+.TasksListTableViewItemReview-checkedSlot {
+    display: flex;
+    align-items: center;
+    min-width: 10%;
+}
+
+.TasksListTableViewItemReview-checkedSlot :first-child {
+    width: 20px;
+    height: 20px;
+    cursor: no-drop;
+}
+
+.TasksListTableViewItemReview-checkedSlot > *:not(:last-child) {
+    margin-right: 12px;
+}
+
+.TasksListTableViewItemReview > *:not(:last-child) {
+    margin-right: 3%;
+}
+
+.TasksListTableViewItemReview-buttonsSlot {
+    display: flex;
+    flex-direction: row;
+}
+
+.TasksListTableViewItemReview-buttonsSlot > *:not(:last-child) {
+    margin-right: 12px;
+}
+
+.TasksListTableViewItemReview-taskStatus_active {
+    padding: 2px 4px 4px 4px;
+    background: linear-gradient(0deg, #5BBDA5, #5BBDA5);
+    border-radius: 8px;
+}
+
+.TasksListTableViewItemReview-taskStatus_notActive {
+    padding: 2px 4px 4px 4px;
+    background: #D3536B;
+    color: #FFFFFF;
+    border-radius: 8px;
+}

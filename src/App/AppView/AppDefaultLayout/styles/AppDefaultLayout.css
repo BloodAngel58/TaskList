@@ -1,0 +1,22 @@
+.AppDefaultLayout {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.AppDefaultLayout-headerSlot {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #293293;
+    flex: 0 0 max-content;
+}
+
+.AppDefaultLayout-navMenuSlot {
+    padding: 12px 0 12px 0;
+    display: flex;
+    flex: 0 0 max-content;
+}
+
+.AppDefaultLayout-contentSlot {
+    flex-grow: 1;
+}

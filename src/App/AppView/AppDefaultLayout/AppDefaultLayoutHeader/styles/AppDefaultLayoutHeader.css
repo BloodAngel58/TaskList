@@ -1,0 +1,9 @@
+.AppDefaultLayoutHeader {
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    justify-content: center;
+    background: #F4F4F6;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}

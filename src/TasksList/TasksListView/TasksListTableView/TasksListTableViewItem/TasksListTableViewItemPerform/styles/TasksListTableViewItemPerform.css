@@ -1,0 +1,60 @@
+.TasksListTableViewItemPerform {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.TasksListTableViewItemPerform > *:not(:last-child) {
+    margin-right: 3%;
+}
+
+.TasksListTableViewItemPerform-inputSlot {
+    flex-grow: 1;
+}
+
+.TasksListTableViewItemPerform-inputSlot :first-child {
+    width: 100%;
+}
+
+.TasksListTableViewItemPerform-buttonsSlot {
+    display: flex;
+    flex-direction: row;
+}
+
+.TasksListTableViewItemPerform-buttonsSlot > *:not(:last-child) {
+    margin-right: 12px;
+}
+
+.TasksListTableViewItemPerform-checkboxSlot_checkbox {
+    width: 20px;
+    height: 20px;
+}
+
+.TasksListTableViewItemPerform-checkboxSlot {
+    display: flex;
+    align-items: center;
+    min-width: 10%;
+}
+
+.TasksListTableViewItemPerform-checkboxSlot :first-child {
+    margin-right: 12px;
+}
+
+.TasksListTableViewItemPerform-checkboxSlot_taskStatus {
+    display: flex;
+    align-items: center;
+}
+
+.TasksListTableViewItemPerform-taskActive {
+    padding: 2px 4px 4px 4px;
+    background: linear-gradient(0deg, #5BBDA5, #5BBDA5);
+    border-radius: 8px;
+}
+
+.TasksListTableViewItemPerform-taskNotActive {
+    padding: 2px 4px 4px 4px;
+    background: #D3536B;
+    color: #FFFFFF;
+    border-radius: 8px;
+}
